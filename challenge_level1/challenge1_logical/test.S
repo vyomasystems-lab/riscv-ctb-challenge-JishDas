@@ -15852,7 +15852,8 @@ RVTEST_CODE_BEGIN
 	and s3, tp, s10
 	and a7, a0, s3
 	and s3, a5, a5
-	and s7, ra, z4
+	#and s7, ra, z4	----> don't have any z4 register available in register file
+	and s7, ra, s4
 	and s7, ra, ra
 	and s6, t3, s10
 	and t1, s2, a6
@@ -25581,7 +25582,8 @@ RVTEST_CODE_BEGIN
 	and tp, s6, ra
 	and s2, s1, s5
 	and a3, s0, a7
-	andi s5, t1, s0
+	# andi s5, t1, s0 -----> andi's third operand should be a 12 bit hex number(immediate), not the one saved in a register
+	andi s5, t1, 0
 	and tp, a0, a7
 	and s11, s5, s9
 	and sp, a4, a6
