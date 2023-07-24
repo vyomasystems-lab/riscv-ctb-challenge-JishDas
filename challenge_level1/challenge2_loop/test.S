@@ -14,12 +14,15 @@ RVTEST_CODE_BEGIN
   li t5, 3
 
 loop:
+  beq t5, x0, test_end     # check if t5 is equal to 0 ----> run 3 times => t5 = 3,2,1
 	lw t1, (t0)
   lw t2, 4(t0)
   lw t3, 8(t0)
   add t4, t1, t2
   addi t0, t0, 12
+  addi t5, t5, -1         # after every iteration decrement t5 by 1
   beq t3, t4, loop        # check if sum is correct
+  RVTEST_PASS
   j fail
 
 test_end:
