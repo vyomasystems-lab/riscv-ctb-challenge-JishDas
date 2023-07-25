@@ -63,7 +63,8 @@ isa-instruction-distribution:
   rel_rv32i.zbt: 0
   rel_rv64i.zbt: 0
   rel_rv32m: 0
-  rel_rv64m: 10
+  # rel_rv64m: 10     ----> machine is rv32i complaint
+  rel_rv64m: 0
   rel_rv32a: 0
   rel_rv64a: 0
   rel_rv32f: 0
