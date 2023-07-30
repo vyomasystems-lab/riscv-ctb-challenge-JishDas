@@ -177,7 +177,7 @@ d-cache:
 # Exception generation
 # ---------------------------------------------------------------------------------
 exception-generation:
-  ecause00: 10                        # generate 10 illegal exeptions
+  ecause00: 10                        # generate 10 exeption - handler code - intruction address misaligned - code 00
   ecause01: 0
   ecause02: 0
   ecause03: 0
