@@ -17,7 +17,7 @@ RVTEST_CODE_BEGIN
   # Arithmetic tests
   #-------------------------------------------------------------
 
-  TEST_RR_OP( 2,  add, 0x00000001, 0x00000001, 0x00000000 );
+  TEST_RR_OP( 2,  or, 0x00000001, 0x00000001, 0x00000001 );
   
   TEST_PASSFAIL
 
