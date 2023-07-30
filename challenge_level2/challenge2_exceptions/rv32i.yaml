@@ -207,7 +207,7 @@ program-macro:
   post_program_macro: "add x0,x0,x0"
   pre_branch_macro: "add x0,x0,x0"
   post_branch_macro: "add x0,x0,x0"
-  ecause00: "random"               # illegal instruction's --> exeption handler code
+  ecause00: "random"
   ecause01: "random"
   ecause02: "random"
   ecause03: "random"
