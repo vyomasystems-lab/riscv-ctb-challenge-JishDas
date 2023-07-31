@@ -7,7 +7,7 @@ I chose **riscv buggy** as my preferred design in the *part 3*.
 
 ## Contents
 * Introduction
-* How the project was run
+* Project Execution Details
 * Challenge Level 1
     - Introduction
     - Challenge 1 logical
@@ -24,7 +24,23 @@ I chose **riscv buggy** as my preferred design in the *part 3*.
     - RISCV
     - RISCV - DV Coverage
 
-## How the project was run 
+## Project Execution Details
+**The Verification Plan**
+
+![img](pictures/What_1.png)
+
+
+**The details of Verification Process**
+
+![img](pictures/What_2.png)
+![img](pictures/What_3.png)
+![img](pictures/What_4.png)
+![img](pictures/What_5.png)
+![img](pictures/What_6.png)
+
+**The Compilation Procedure**
+![img](pictures/What_7.png)
+
 
 ## Challenge Level 1
 ### Introduction
